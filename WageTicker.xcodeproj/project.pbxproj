@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BC0DAD22A45CBBA00675F58 /* WageTickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0DAD12A45CBBA00675F58 /* WageTickerApp.swift */; };
+		5BC0DAD42A45CBBA00675F58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0DAD32A45CBBA00675F58 /* ContentView.swift */; };
+		5BC0DAD62A45CBBB00675F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC0DAD52A45CBBB00675F58 /* Assets.xcassets */; };
+		5BC0DAD92A45CBBB00675F58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC0DAD82A45CBBB00675F58 /* Preview Assets.xcassets */; };
+		5BC0DAE32A45CBBB00675F58 /* WageTickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0DAE22A45CBBB00675F58 /* WageTickerTests.swift */; };
+		5BC0DAED2A45CBBB00675F58 /* WageTickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0DAEC2A45CBBB00675F58 /* WageTickerUITests.swift */; };
+		5BC0DAEF2A45CBBB00675F58 /* WageTickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0DAEE2A45CBBB00675F58 /* WageTickerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BC0DADF2A45CBBB00675F58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC0DAC62A45CBBA00675F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC0DACD2A45CBBA00675F58;
+			remoteInfo = WageTicker;
+		};
+		5BC0DAE92A45CBBB00675F58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC0DAC62A45CBBA00675F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC0DACD2A45CBBA00675F58;
+			remoteInfo = WageTicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BC0DACE2A45CBBA00675F58 /* WageTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WageTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC0DAD12A45CBBA00675F58 /* WageTickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WageTickerApp.swift; sourceTree = "<group>"; };
+		5BC0DAD32A45CBBA00675F58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BC0DAD52A45CBBB00675F58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BC0DAD82A45CBBB00675F58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BC0DADE2A45CBBB00675F58 /* WageTickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WageTickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC0DAE22A45CBBB00675F58 /* WageTickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WageTickerTests.swift; sourceTree = "<group>"; };
+		5BC0DAE82A45CBBB00675F58 /* WageTickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WageTickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC0DAEC2A45CBBB00675F58 /* WageTickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WageTickerUITests.swift; sourceTree = "<group>"; };
+		5BC0DAEE2A45CBBB00675F58 /* WageTickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WageTickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BC0DACB2A45CBBA00675F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC0DADB2A45CBBB00675F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC0DAE52A45CBBB00675F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BC0DAC52A45CBBA00675F58 = {
+			isa = PBXGroup;
+			children = (
+				5BC0DAD02A45CBBA00675F58 /* WageTicker */,
+				5BC0DAE12A45CBBB00675F58 /* WageTickerTests */,
+				5BC0DAEB2A45CBBB00675F58 /* WageTickerUITests */,
+				5BC0DACF2A45CBBA00675F58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BC0DACF2A45CBBA00675F58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC0DACE2A45CBBA00675F58 /* WageTicker.app */,
+				5BC0DADE2A45CBBB00675F58 /* WageTickerTests.xctest */,
+				5BC0DAE82A45CBBB00675F58 /* WageTickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC0DAD02A45CBBA00675F58 /* WageTicker */ = {
+			isa = PBXGroup;
+			children = (
+				5BC0DAD12A45CBBA00675F58 /* WageTickerApp.swift */,
+				5BC0DAD32A45CBBA00675F58 /* ContentView.swift */,
+				5BC0DAD52A45CBBB00675F58 /* Assets.xcassets */,
+				5BC0DAD72A45CBBB00675F58 /* Preview Content */,
+			);
+			path = WageTicker;
+			sourceTree = "<group>";
+		};
+		5BC0DAD72A45CBBB00675F58 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5BC0DAD82A45CBBB00675F58 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5BC0DAE12A45CBBB00675F58 /* WageTickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BC0DAE22A45CBBB00675F58 /* WageTickerTests.swift */,
+			);
+			path = WageTickerTests;
+			sourceTree = "<group>";
+		};
+		5BC0DAEB2A45CBBB00675F58 /* WageTickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BC0DAEC2A45CBBB00675F58 /* WageTickerUITests.swift */,
+				5BC0DAEE2A45CBBB00675F58 /* WageTickerUITestsLaunchTests.swift */,
+			);
+			path = WageTickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BC0DACD2A45CBBA00675F58 /* WageTicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC0DAF22A45CBBB00675F58 /* Build configuration list for PBXNativeTarget "WageTicker" */;
+			buildPhases = (
+				5BC0DACA2A45CBBA00675F58 /* Sources */,
+				5BC0DACB2A45CBBA00675F58 /* Frameworks */,
+				5BC0DACC2A45CBBA00675F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WageTicker;
+			productName = WageTicker;
+			productReference = 5BC0DACE2A45CBBA00675F58 /* WageTicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BC0DADD2A45CBBB00675F58 /* WageTickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC0DAF52A45CBBB00675F58 /* Build configuration list for PBXNativeTarget "WageTickerTests" */;
+			buildPhases = (
+				5BC0DADA2A45CBBB00675F58 /* Sources */,
+				5BC0DADB2A45CBBB00675F58 /* Frameworks */,
+				5BC0DADC2A45CBBB00675F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC0DAE02A45CBBB00675F58 /* PBXTargetDependency */,
+			);
+			name = WageTickerTests;
+			productName = WageTickerTests;
+			productReference = 5BC0DADE2A45CBBB00675F58 /* WageTickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BC0DAE72A45CBBB00675F58 /* WageTickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC0DAF82A45CBBB00675F58 /* Build configuration list for PBXNativeTarget "WageTickerUITests" */;
+			buildPhases = (
+				5BC0DAE42A45CBBB00675F58 /* Sources */,
+				5BC0DAE52A45CBBB00675F58 /* Frameworks */,
+				5BC0DAE62A45CBBB00675F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC0DAEA2A45CBBB00675F58 /* PBXTargetDependency */,
+			);
+			name = WageTickerUITests;
+			productName = WageTickerUITests;
+			productReference = 5BC0DAE82A45CBBB00675F58 /* WageTickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BC0DAC62A45CBBA00675F58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5BC0DACD2A45CBBA00675F58 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					5BC0DADD2A45CBBB00675F58 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 5BC0DACD2A45CBBA00675F58;
+					};
+					5BC0DAE72A45CBBB00675F58 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 5BC0DACD2A45CBBA00675F58;
+					};
+				};
+			};
+			buildConfigurationList = 5BC0DAC92A45CBBA00675F58 /* Build configuration list for PBXProject "WageTicker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BC0DAC52A45CBBA00675F58;
+			productRefGroup = 5BC0DACF2A45CBBA00675F58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BC0DACD2A45CBBA00675F58 /* WageTicker */,
+				5BC0DADD2A45CBBB00675F58 /* WageTickerTests */,
+				5BC0DAE72A45CBBB00675F58 /* WageTickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BC0DACC2A45CBBA00675F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC0DAD92A45CBBB00675F58 /* Preview Assets.xcassets in Resources */,
+				5BC0DAD62A45CBBB00675F58 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC0DADC2A45CBBB00675F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC0DAE62A45CBBB00675F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC0DACA2A45CBBA00675F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC0DAD42A45CBBA00675F58 /* ContentView.swift in Sources */,
+				5BC0DAD22A45CBBA00675F58 /* WageTickerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC0DADA2A45CBBB00675F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC0DAE32A45CBBB00675F58 /* WageTickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC0DAE42A45CBBB00675F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC0DAEF2A45CBBB00675F58 /* WageTickerUITestsLaunchTests.swift in Sources */,
+				5BC0DAED2A45CBBB00675F58 /* WageTickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BC0DAE02A45CBBB00675F58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BC0DACD2A45CBBA00675F58 /* WageTicker */;
+			targetProxy = 5BC0DADF2A45CBBB00675F58 /* PBXContainerItemProxy */;
+		};
+		5BC0DAEA2A45CBBB00675F58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BC0DACD2A45CBBA00675F58 /* WageTicker */;
+			targetProxy = 5BC0DAE92A45CBBB00675F58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5BC0DAF02A45CBBB00675F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BC0DAF12A45CBBB00675F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BC0DAF32A45CBBB00675F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WageTicker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouduo.WageTicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BC0DAF42A45CBBB00675F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WageTicker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouduo.WageTicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BC0DAF62A45CBBB00675F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouduo.WageTickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WageTicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WageTicker";
+			};
+			name = Debug;
+		};
+		5BC0DAF72A45CBBB00675F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouduo.WageTickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WageTicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WageTicker";
+			};
+			name = Release;
+		};
+		5BC0DAF92A45CBBB00675F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouduo.WageTickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WageTicker;
+			};
+			name = Debug;
+		};
+		5BC0DAFA2A45CBBB00675F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouduo.WageTickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WageTicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BC0DAC92A45CBBA00675F58 /* Build configuration list for PBXProject "WageTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC0DAF02A45CBBB00675F58 /* Debug */,
+				5BC0DAF12A45CBBB00675F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC0DAF22A45CBBB00675F58 /* Build configuration list for PBXNativeTarget "WageTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC0DAF32A45CBBB00675F58 /* Debug */,
+				5BC0DAF42A45CBBB00675F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC0DAF52A45CBBB00675F58 /* Build configuration list for PBXNativeTarget "WageTickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC0DAF62A45CBBB00675F58 /* Debug */,
+				5BC0DAF72A45CBBB00675F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC0DAF82A45CBBB00675F58 /* Build configuration list for PBXNativeTarget "WageTickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC0DAF92A45CBBB00675F58 /* Debug */,
+				5BC0DAFA2A45CBBB00675F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BC0DAC62A45CBBA00675F58 /* Project object */;
+}
