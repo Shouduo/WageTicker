@@ -1,0 +1,33 @@
+/*
+  Localizable.strings
+  WageTicker
+
+  Created by Shouduo on 2023/7/10.
+  
+*/
+
+"Start in:" = "距上班：";
+"End in:" = "距下班：";
+"Day-off" = "今日休息";
+"Have fun" = "玩得开心";
+
+"Amount" = "总额";
+"Daily Income" = "日均收入";
+"Currency Code" = "货币符号";
+"Work Period" = "工作时间";
+"Punch-in" = "上班时间";
+"Punch-out" = "下班时间";
+"Workdays" = "工作日";
+"Other" = "其他";
+"Color Theme" = "主题颜色";
+
+"Sunday" = "星期日";
+"Monday" = "星期一";
+"Tuesday" = "星期二";
+"Wednesday" = "星期三";
+"Thursday" = "星期四";
+"Friday" = "星期五";
+"Saturday" = "星期六";
+
+"WidgetDisplayName" = "打工计数器";
+"WidgetDescription" = "看一眼今天已经挣了几个钱";

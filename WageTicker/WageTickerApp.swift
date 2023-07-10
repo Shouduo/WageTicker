@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 @main
 struct WageTickerApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

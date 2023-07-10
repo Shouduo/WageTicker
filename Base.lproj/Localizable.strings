@@ -1,0 +1,33 @@
+/*
+  Localizable.strings
+  WageTicker
+
+  Created by Shouduo on 2023/7/10.
+  
+*/
+
+"Start in:" = "Start in:";
+"End in:" = "End in:";
+"Day-off" = "Day-off";
+"Have fun" = "Have fun";
+
+"Amount" = "Amount";
+"Daily Income" = "Daily Income";
+"Currency Code" = "Currency Code";
+"Work Period" = "Work Period";
+"Punch-in" = "Punch-in";
+"Punch-out" = "Punch-out";
+"Workdays" = "Workdays";
+"Other" = "Other";
+"Color Theme" = "Color Theme";
+
+"Sunday" = "Sunday";
+"Monday" = "Monday";
+"Tuesday" = "Tuesday";
+"Wednesday" = "Wednesday";
+"Thursday" = "Thursday";
+"Friday" = "Friday";
+"Saturday" = "Saturday";
+
+"WidgetDisplayName" = "Wage Ticker";
+"WidgetDescription" = "Keep eyes on how much you've earned throughout the day";

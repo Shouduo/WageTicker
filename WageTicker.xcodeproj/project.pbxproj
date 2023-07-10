@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1BED642A4F1F0700F2C6B5 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1BED632A4F1F0700F2C6B5 /* TestView.swift */; };
+		5B1BED662A4FD9C900F2C6B5 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1BED652A4FD9C900F2C6B5 /* TextInput.swift */; };
+		5B1BED682A5030B300F2C6B5 /* NumberInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1BED672A5030B300F2C6B5 /* NumberInput.swift */; };
+		5B1BED6A2A506BB100F2C6B5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1BED692A506BB100F2C6B5 /* Config.swift */; };
+		5B1BED6C2A51910F00F2C6B5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1BED6B2A51910F00F2C6B5 /* Utils.swift */; };
+		5B1BED702A51941000F2C6B5 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1BED6F2A51941000F2C6B5 /* WidgetView.swift */; };
+		5B1BED782A52F15100F2C6B5 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1BED6F2A51941000F2C6B5 /* WidgetView.swift */; };
+		5B1BED7A2A52F26B00F2C6B5 /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F09742A4DB09C00109AC5 /* ProgressRing.swift */; };
+		5B1BED7C2A53097200F2C6B5 /* NumberTicker in Frameworks */ = {isa = PBXBuildFile; productRef = 5B1BED7B2A53097200F2C6B5 /* NumberTicker */; };
+		5B1BED7D2A5544B000F2C6B5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1BED6B2A51910F00F2C6B5 /* Utils.swift */; };
+		5B1BED7E2A554CCE00F2C6B5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1BED692A506BB100F2C6B5 /* Config.swift */; };
+		5B1F09752A4DB09C00109AC5 /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F09742A4DB09C00109AC5 /* ProgressRing.swift */; };
+		5B1F09772A4DD24900109AC5 /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F09762A4DD24900109AC5 /* PlaygroundView.swift */; };
+		5B1F09792A4DE56500109AC5 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F09782A4DE56500109AC5 /* TimePicker.swift */; };
+		5B56D11F2A4E83BD001410F4 /* MultiSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B56D11E2A4E83BD001410F4 /* MultiSelector.swift */; };
+		5B96D5582A4D2F330078FB1A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B96D5572A4D2F330078FB1A /* SettingsView.swift */; };
 		5BC0DAD22A45CBBA00675F58 /* WageTickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0DAD12A45CBBA00675F58 /* WageTickerApp.swift */; };
 		5BC0DAD42A45CBBA00675F58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0DAD32A45CBBA00675F58 /* ContentView.swift */; };
 		5BC0DAD62A45CBBB00675F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC0DAD52A45CBBB00675F58 /* Assets.xcassets */; };
@@ -14,6 +30,25 @@
 		5BC0DAE32A45CBBB00675F58 /* WageTickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0DAE22A45CBBB00675F58 /* WageTickerTests.swift */; };
 		5BC0DAED2A45CBBB00675F58 /* WageTickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0DAEC2A45CBBB00675F58 /* WageTickerUITests.swift */; };
 		5BC0DAEF2A45CBBB00675F58 /* WageTickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0DAEE2A45CBBB00675F58 /* WageTickerUITestsLaunchTests.swift */; };
+		5BC0DAFD2A45D2F500675F58 /* NumberTicker in Frameworks */ = {isa = PBXBuildFile; productRef = 5BC0DAFC2A45D2F500675F58 /* NumberTicker */; };
+		5BD679602A5BB44D003747A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6795E2A5BB44D003747A5 /* Localizable.strings */; };
+		5BD679652A5BF257003747A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BD679622A5BE3C5003747A5 /* Localizable.strings */; };
+		5BD679662A5BF25A003747A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6795E2A5BB44D003747A5 /* Localizable.strings */; };
+		5BD6799E2A5C1B56003747A5 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6799C2A5C1B56003747A5 /* Localizable.strings */; };
+		5BD6799F2A5C1B56003747A5 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6799C2A5C1B56003747A5 /* Localizable.strings */; };
+		5BD679A82A5C22B8003747A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BD679A62A5C22B8003747A5 /* InfoPlist.strings */; };
+		5BD679A92A5C22B8003747A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BD679A62A5C22B8003747A5 /* InfoPlist.strings */; };
+		5BD679AC2A5C230E003747A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BD679AA2A5C230E003747A5 /* InfoPlist.strings */; };
+		5BD679AD2A5C230E003747A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BD679AA2A5C230E003747A5 /* InfoPlist.strings */; };
+		5BD679B02A5C234A003747A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BD679AE2A5C234A003747A5 /* InfoPlist.strings */; };
+		5BD679B12A5C234A003747A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BD679AE2A5C234A003747A5 /* InfoPlist.strings */; };
+		5BE31EE72A49728600970D15 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE31EE62A49728600970D15 /* WidgetKit.framework */; };
+		5BE31EE92A49728600970D15 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE31EE82A49728600970D15 /* SwiftUI.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		5BE31EEC2A49728600970D15 /* WageWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE31EEB2A49728600970D15 /* WageWidget.swift */; };
+		5BE31EEF2A49728700970D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE31EEE2A49728700970D15 /* Assets.xcassets */; };
+		5BE31EF12A49728700970D15 /* WageWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5BE31EED2A49728600970D15 /* WageWidget.intentdefinition */; };
+		5BE31EF22A49728700970D15 /* WageWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5BE31EED2A49728600970D15 /* WageWidget.intentdefinition */; };
+		5BE31EF52A49728700970D15 /* WageWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5BE31EE42A49728600970D15 /* WageWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +66,43 @@
 			remoteGlobalIDString = 5BC0DACD2A45CBBA00675F58;
 			remoteInfo = WageTicker;
 		};
+		5BE31EF32A49728700970D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC0DAC62A45CBBA00675F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE31EE32A49728600970D15;
+			remoteInfo = WageWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5BE31EF92A49728700970D15 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5BE31EF52A49728700970D15 /* WageWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5B1BED632A4F1F0700F2C6B5 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		5B1BED652A4FD9C900F2C6B5 /* TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
+		5B1BED672A5030B300F2C6B5 /* NumberInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberInput.swift; sourceTree = "<group>"; };
+		5B1BED692A506BB100F2C6B5 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		5B1BED6B2A51910F00F2C6B5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5B1BED6F2A51941000F2C6B5 /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
+		5B1BED7F2A5559A500F2C6B5 /* WageTicker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WageTicker.entitlements; sourceTree = "<group>"; };
+		5B1BED802A5559C200F2C6B5 /* WageWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WageWidgetExtension.entitlements; sourceTree = "<group>"; };
+		5B1F09742A4DB09C00109AC5 /* ProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
+		5B1F09762A4DD24900109AC5 /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
+		5B1F09782A4DE56500109AC5 /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
+		5B56D11E2A4E83BD001410F4 /* MultiSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelector.swift; sourceTree = "<group>"; };
+		5B96D5572A4D2F330078FB1A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		5BC0DACE2A45CBBA00675F58 /* WageTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WageTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC0DAD12A45CBBA00675F58 /* WageTickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WageTickerApp.swift; sourceTree = "<group>"; };
 		5BC0DAD32A45CBBA00675F58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +113,19 @@
 		5BC0DAE82A45CBBB00675F58 /* WageTickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WageTickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC0DAEC2A45CBBB00675F58 /* WageTickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WageTickerUITests.swift; sourceTree = "<group>"; };
 		5BC0DAEE2A45CBBB00675F58 /* WageTickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WageTickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BD6795F2A5BB44D003747A5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
+		5BD679632A5BE3C5003747A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		5BD6799D2A5C1B56003747A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Localizable.strings; sourceTree = "<group>"; };
+		5BD679A72A5C22B8003747A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = InfoPlist.strings; sourceTree = "<group>"; };
+		5BD679AB2A5C230E003747A5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = InfoPlist.strings; sourceTree = "<group>"; };
+		5BD679AF2A5C234A003747A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		5BE31EE42A49728600970D15 /* WageWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WageWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE31EE62A49728600970D15 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		5BE31EE82A49728600970D15 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		5BE31EEB2A49728600970D15 /* WageWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WageWidget.swift; sourceTree = "<group>"; };
+		5BE31EED2A49728600970D15 /* WageWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WageWidget.intentdefinition; sourceTree = "<group>"; };
+		5BE31EEE2A49728700970D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BE31EF02A49728700970D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC0DAFD2A45D2F500675F58 /* NumberTicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,15 +151,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BE31EE12A49728600970D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE31EE92A49728600970D15 /* SwiftUI.framework in Frameworks */,
+				5BE31EE72A49728600970D15 /* WidgetKit.framework in Frameworks */,
+				5B1BED7C2A53097200F2C6B5 /* NumberTicker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B1BED6D2A51924600F2C6B5 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				5B1BED672A5030B300F2C6B5 /* NumberInput.swift */,
+				5B1BED652A4FD9C900F2C6B5 /* TextInput.swift */,
+				5B1F09782A4DE56500109AC5 /* TimePicker.swift */,
+				5B56D11E2A4E83BD001410F4 /* MultiSelector.swift */,
+				5B1F09742A4DB09C00109AC5 /* ProgressRing.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		5B1BED6E2A51936D00F2C6B5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5B1BED6B2A51910F00F2C6B5 /* Utils.swift */,
+				5B1BED692A506BB100F2C6B5 /* Config.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		5BC0DAC52A45CBBA00675F58 = {
 			isa = PBXGroup;
 			children = (
+				5BD679612A5BE39E003747A5 /* en.lproj */,
+				5BD6795D2A5BB40F003747A5 /* zh-Hans.lproj */,
+				5BD679592A5BAC57003747A5 /* Base.lproj */,
+				5B1BED802A5559C200F2C6B5 /* WageWidgetExtension.entitlements */,
 				5BC0DAD02A45CBBA00675F58 /* WageTicker */,
+				5BE31EEA2A49728600970D15 /* WageWidget */,
 				5BC0DAE12A45CBBB00675F58 /* WageTickerTests */,
 				5BC0DAEB2A45CBBB00675F58 /* WageTickerUITests */,
+				5BE31EE52A49728600970D15 /* Frameworks */,
 				5BC0DACF2A45CBBA00675F58 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +207,7 @@
 				5BC0DACE2A45CBBA00675F58 /* WageTicker.app */,
 				5BC0DADE2A45CBBB00675F58 /* WageTickerTests.xctest */,
 				5BC0DAE82A45CBBB00675F58 /* WageTickerUITests.xctest */,
+				5BE31EE42A49728600970D15 /* WageWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,7 +215,14 @@
 		5BC0DAD02A45CBBA00675F58 /* WageTicker */ = {
 			isa = PBXGroup;
 			children = (
+				5B1BED7F2A5559A500F2C6B5 /* WageTicker.entitlements */,
+				5B1BED6D2A51924600F2C6B5 /* Component */,
+				5B1BED6E2A51936D00F2C6B5 /* Utils */,
+				5B1BED632A4F1F0700F2C6B5 /* TestView.swift */,
 				5BC0DAD12A45CBBA00675F58 /* WageTickerApp.swift */,
+				5B1BED6F2A51941000F2C6B5 /* WidgetView.swift */,
+				5B1F09762A4DD24900109AC5 /* PlaygroundView.swift */,
+				5B96D5572A4D2F330078FB1A /* SettingsView.swift */,
 				5BC0DAD32A45CBBA00675F58 /* ContentView.swift */,
 				5BC0DAD52A45CBBB00675F58 /* Assets.xcassets */,
 				5BC0DAD72A45CBBB00675F58 /* Preview Content */,
@@ -127,6 +255,53 @@
 			path = WageTickerUITests;
 			sourceTree = "<group>";
 		};
+		5BD679592A5BAC57003747A5 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				5BD6799C2A5C1B56003747A5 /* Localizable.strings */,
+				5BD679A62A5C22B8003747A5 /* InfoPlist.strings */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		5BD6795D2A5BB40F003747A5 /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				5BD6795E2A5BB44D003747A5 /* Localizable.strings */,
+				5BD679AA2A5C230E003747A5 /* InfoPlist.strings */,
+			);
+			path = "zh-Hans.lproj";
+			sourceTree = "<group>";
+		};
+		5BD679612A5BE39E003747A5 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				5BD679622A5BE3C5003747A5 /* Localizable.strings */,
+				5BD679AE2A5C234A003747A5 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		5BE31EE52A49728600970D15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BE31EE62A49728600970D15 /* WidgetKit.framework */,
+				5BE31EE82A49728600970D15 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BE31EEA2A49728600970D15 /* WageWidget */ = {
+			isa = PBXGroup;
+			children = (
+				5BE31EEB2A49728600970D15 /* WageWidget.swift */,
+				5BE31EED2A49728600970D15 /* WageWidget.intentdefinition */,
+				5BE31EEE2A49728700970D15 /* Assets.xcassets */,
+				5BE31EF02A49728700970D15 /* Info.plist */,
+			);
+			path = WageWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,12 +312,17 @@
 				5BC0DACA2A45CBBA00675F58 /* Sources */,
 				5BC0DACB2A45CBBA00675F58 /* Frameworks */,
 				5BC0DACC2A45CBBA00675F58 /* Resources */,
+				5BE31EF92A49728700970D15 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5BE31EF42A49728700970D15 /* PBXTargetDependency */,
 			);
 			name = WageTicker;
+			packageProductDependencies = (
+				5BC0DAFC2A45D2F500675F58 /* NumberTicker */,
+			);
 			productName = WageTicker;
 			productReference = 5BC0DACE2A45CBBA00675F58 /* WageTicker.app */;
 			productType = "com.apple.product-type.application";
@@ -183,6 +363,26 @@
 			productReference = 5BC0DAE82A45CBBB00675F58 /* WageTickerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		5BE31EE32A49728600970D15 /* WageWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE31EF62A49728700970D15 /* Build configuration list for PBXNativeTarget "WageWidgetExtension" */;
+			buildPhases = (
+				5BE31EE02A49728600970D15 /* Sources */,
+				5BE31EE12A49728600970D15 /* Frameworks */,
+				5BE31EE22A49728600970D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WageWidgetExtension;
+			packageProductDependencies = (
+				5B1BED7B2A53097200F2C6B5 /* NumberTicker */,
+			);
+			productName = WageWidgetExtension;
+			productReference = 5BE31EE42A49728600970D15 /* WageWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,17 +404,24 @@
 						CreatedOnToolsVersion = 14.0.1;
 						TestTargetID = 5BC0DACD2A45CBBA00675F58;
 					};
+					5BE31EE32A49728600970D15 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
 				};
 			};
 			buildConfigurationList = 5BC0DAC92A45CBBA00675F58 /* Build configuration list for PBXProject "WageTicker" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = "zh-Hans";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 5BC0DAC52A45CBBA00675F58;
+			packageReferences = (
+				5BC0DAFB2A45D2F500675F58 /* XCRemoteSwiftPackageReference "NumberTicker" */,
+			);
 			productRefGroup = 5BC0DACF2A45CBBA00675F58 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -222,6 +429,7 @@
 				5BC0DACD2A45CBBA00675F58 /* WageTicker */,
 				5BC0DADD2A45CBBB00675F58 /* WageTickerTests */,
 				5BC0DAE72A45CBBB00675F58 /* WageTickerUITests */,
+				5BE31EE32A49728600970D15 /* WageWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -232,7 +440,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BC0DAD92A45CBBB00675F58 /* Preview Assets.xcassets in Resources */,
+				5BD679B02A5C234A003747A5 /* InfoPlist.strings in Resources */,
+				5BD679A82A5C22B8003747A5 /* InfoPlist.strings in Resources */,
+				5BD679602A5BB44D003747A5 /* Localizable.strings in Resources */,
 				5BC0DAD62A45CBBB00675F58 /* Assets.xcassets in Resources */,
+				5BD679AC2A5C230E003747A5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +462,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BE31EE22A49728600970D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE31EEF2A49728700970D15 /* Assets.xcassets in Resources */,
+				5BD679B12A5C234A003747A5 /* InfoPlist.strings in Resources */,
+				5BD679A92A5C22B8003747A5 /* InfoPlist.strings in Resources */,
+				5BD679662A5BF25A003747A5 /* Localizable.strings in Resources */,
+				5BD679652A5BF257003747A5 /* Localizable.strings in Resources */,
+				5BD679AD2A5C230E003747A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +482,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1BED682A5030B300F2C6B5 /* NumberInput.swift in Sources */,
+				5BE31EF22A49728700970D15 /* WageWidget.intentdefinition in Sources */,
+				5B1BED702A51941000F2C6B5 /* WidgetView.swift in Sources */,
+				5B1F09772A4DD24900109AC5 /* PlaygroundView.swift in Sources */,
+				5B56D11F2A4E83BD001410F4 /* MultiSelector.swift in Sources */,
+				5B1BED662A4FD9C900F2C6B5 /* TextInput.swift in Sources */,
+				5B1BED6C2A51910F00F2C6B5 /* Utils.swift in Sources */,
+				5BD6799E2A5C1B56003747A5 /* Localizable.strings in Sources */,
+				5B1BED6A2A506BB100F2C6B5 /* Config.swift in Sources */,
+				5B1F09792A4DE56500109AC5 /* TimePicker.swift in Sources */,
+				5B96D5582A4D2F330078FB1A /* SettingsView.swift in Sources */,
 				5BC0DAD42A45CBBA00675F58 /* ContentView.swift in Sources */,
+				5B1BED642A4F1F0700F2C6B5 /* TestView.swift in Sources */,
 				5BC0DAD22A45CBBA00675F58 /* WageTickerApp.swift in Sources */,
+				5B1F09752A4DB09C00109AC5 /* ProgressRing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +517,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BE31EE02A49728600970D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE31EF12A49728700970D15 /* WageWidget.intentdefinition in Sources */,
+				5BD6799F2A5C1B56003747A5 /* Localizable.strings in Sources */,
+				5B1BED782A52F15100F2C6B5 /* WidgetView.swift in Sources */,
+				5B1BED7E2A554CCE00F2C6B5 /* Config.swift in Sources */,
+				5BE31EEC2A49728600970D15 /* WageWidget.swift in Sources */,
+				5B1BED7A2A52F26B00F2C6B5 /* ProgressRing.swift in Sources */,
+				5B1BED7D2A5544B000F2C6B5 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,7 +544,63 @@
 			target = 5BC0DACD2A45CBBA00675F58 /* WageTicker */;
 			targetProxy = 5BC0DAE92A45CBBB00675F58 /* PBXContainerItemProxy */;
 		};
+		5BE31EF42A49728700970D15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BE31EE32A49728600970D15 /* WageWidgetExtension */;
+			targetProxy = 5BE31EF32A49728700970D15 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BD6795E2A5BB44D003747A5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD6795F2A5BB44D003747A5 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		5BD679622A5BE3C5003747A5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD679632A5BE3C5003747A5 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		5BD6799C2A5C1B56003747A5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD6799D2A5C1B56003747A5 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		5BD679A62A5C22B8003747A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD679A72A5C22B8003747A5 /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BD679AA2A5C230E003747A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD679AB2A5C230E003747A5 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BD679AE2A5C234A003747A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD679AF2A5C234A003747A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5BC0DAF02A45CBBB00675F58 /* Debug */ = {
@@ -345,7 +653,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +707,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -412,18 +720,25 @@
 		5BC0DAF32A45CBBB00675F58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = WageTicker/WageTicker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WageTicker/Preview Content\"";
+				DEVELOPMENT_TEAM = M6QX2Z87BU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WageTicker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,27 +746,38 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shouduo.WageTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5BC0DAF42A45CBBB00675F58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = WageTicker/WageTicker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WageTicker/Preview Content\"";
+				DEVELOPMENT_TEAM = M6QX2Z87BU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WageTicker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,9 +785,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shouduo.WageTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -537,6 +866,64 @@
 			};
 			name = Release;
 		};
+		5BE31EF72A49728700970D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WageWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = M6QX2Z87BU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WageWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouduo.WageTicker.WageWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5BE31EF82A49728700970D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WageWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = M6QX2Z87BU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WageWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouduo.WageTicker.WageWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -576,7 +963,40 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5BE31EF62A49728700970D15 /* Build configuration list for PBXNativeTarget "WageWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE31EF72A49728700970D15 /* Debug */,
+				5BE31EF82A49728700970D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5BC0DAFB2A45D2F500675F58 /* XCRemoteSwiftPackageReference "NumberTicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fahlout/NumberTicker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B1BED7B2A53097200F2C6B5 /* NumberTicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BC0DAFB2A45D2F500675F58 /* XCRemoteSwiftPackageReference "NumberTicker" */;
+			productName = NumberTicker;
+		};
+		5BC0DAFC2A45D2F500675F58 /* NumberTicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BC0DAFB2A45D2F500675F58 /* XCRemoteSwiftPackageReference "NumberTicker" */;
+			productName = NumberTicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5BC0DAC62A45CBBA00675F58 /* Project object */;
 }
