@@ -6,15 +6,14 @@
 
 'Wage Ticker' is a simple, chic application which just display daily income in realtime.
 Keep eyes on how much you've earned throughout the day via a desktop widget.
-It's a completely local application with no backend server, and it will not upload any user data. Please feel free to use it.
+It's a completely local application with no back-end server, and it will not upload any user data. Please feel free to use it.
 
 ## Project setup
 
 ``` shell
-git clone https://github.com/Shouduo/Toodoo.git
-cd toodoo
-yarn
-yarn start
+git clone https://github.com/Shouduo/WageTicker.git
+cd WageTicker
+pod install
 ```
 
 ## ScreenShots
