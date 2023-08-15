@@ -49,6 +49,7 @@
 		5BE31EF12A49728700970D15 /* WageWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5BE31EED2A49728600970D15 /* WageWidget.intentdefinition */; };
 		5BE31EF22A49728700970D15 /* WageWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5BE31EED2A49728600970D15 /* WageWidget.intentdefinition */; };
 		5BE31EF52A49728700970D15 /* WageWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5BE31EE42A49728600970D15 /* WageWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5BEB80F52A60FC130006A5EF /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 5BEB80F42A60FC130006A5EF /* GoogleMobileAds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BEB80F52A60FC130006A5EF /* GoogleMobileAds in Frameworks */,
 				5BC0DAFD2A45D2F500675F58 /* NumberTicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +324,7 @@
 			name = WageTicker;
 			packageProductDependencies = (
 				5BC0DAFC2A45D2F500675F58 /* NumberTicker */,
+				5BEB80F42A60FC130006A5EF /* GoogleMobileAds */,
 			);
 			productName = WageTicker;
 			productReference = 5BC0DACE2A45CBBA00675F58 /* WageTicker.app */;
@@ -421,6 +424,7 @@
 			mainGroup = 5BC0DAC52A45CBBA00675F58;
 			packageReferences = (
 				5BC0DAFB2A45D2F500675F58 /* XCRemoteSwiftPackageReference "NumberTicker" */,
+				5BEB80F32A60FC130006A5EF /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
 			);
 			productRefGroup = 5BC0DACF2A45CBBA00675F58 /* Products */;
 			projectDirPath = "";
@@ -983,6 +987,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		5BEB80F32A60FC130006A5EF /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -995,6 +1007,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5BC0DAFB2A45D2F500675F58 /* XCRemoteSwiftPackageReference "NumberTicker" */;
 			productName = NumberTicker;
+		};
+		5BEB80F42A60FC130006A5EF /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BEB80F32A60FC130006A5EF /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

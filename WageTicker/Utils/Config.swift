@@ -20,6 +20,6 @@ enum SettingsConfig {
     static let defaultWorkdays: [Weekday] = [.monday, .tuesday, .wednesday, .thursday, .friday]
     static let defaultTimelinePeriod: Double = 120
     static let defaultTickInterval: Double = 5
-    static let defaultPrimaryColor: String = "#85bb65"
+    static let defaultPrimaryColor: String = "#00AF6B"
 }
 
