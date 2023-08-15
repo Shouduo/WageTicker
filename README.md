@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/screenshot/icon.png" height="128px" />  
+  <img src="/Screenshot/icon.png" height="128px" />  
 </p>
 
 # Wage Ticker
@@ -18,7 +18,7 @@ pod install
 
 ## ScreenShots
 
-![img](/screenshot/screenshot_1.png)
+![img](/Screenshot/screenshot_1.png)
 
 ## Todo
 
